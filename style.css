@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+*{
+    font-family: 'Otomanopee One'
+}
+
+.navbar-bar{
+    display: inline;
+}
+
+.nav-item{
+    display: inline-block;
+}
+
+.navbar{
+    padding: 2.8em;
+    background-color: #c90043;
+    z-index: 99999;
+    border-radius: 0;
+    background: cover;
+    width: 1200px;
+}
+
+.navbar .navbar-brand{
+    color: #fefefe;
+    margin-bottom: 10px;
+}
+
+.navbar .navbar-inline .navbar-nav{
+    vertical-align: middle;
+}
+
+.navbar .navbar-inline .navbar-nav .nav-item{
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: large;
+    vertical-align: middle;
+}
+
+.navbar .navbar-inline .navbar-nav .nav-item a{
+    color: #fefefe;
+    text-decoration: none;
+}
+
+.navbar .navbar-inline .navbar-nav .nav-item a:hover{
+    color: #fefefe;
+    text-decoration: none;
+}
+
+.navbar .navbar-inline .navbar-nav .nav-item a:visited{
+    color: #fefefe;
+    text-decoration: none;
+}
+
+#head-line{
+    background-color: #ffd857;
+    color: #fefefe;
+    height: 2em;
+}
+
+.Video{
+    margin: 1em;
+}
+
+.contact{
+    padding: 1em;
+    margin-bottom: 10px;
+}
+
+.contact iframe{
+    border-radius: 20px;
+    box-shadow: 12px 10px 15px #c2c2c2;
+}
+
+
+html {
+ scroll-behavior: smooth;
+}
+
+#map iframe
+{
+    width: 50%;
+    float: left;
+    padding-top: 5px;
+}
+
+.contact_1 h3
+{
+    display: inline;
+}
+.contact_1 a
+{
+    text-shadow: none;
+}
+
+#footer{
+  height: 20px;
+  background-color:white;
+  }
+
+input
+{
+    background: grey
+}
+
+.announcement{
+background-color:#337ab7;
+width: 100%;
+height: 30px;
+}
+
+#marqueeStyle{
+  width:100%;
+  direction:right;
+  height:100px;
+  color: beige;
+  font-size:120%;
+}
+
+#video{
+  width:100%;
+  height:500px;
+  border: none;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.travel_mainDiv
+{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  border: 1px solid #c7c7c7;
+}
+
+.travel_mainDiv img
+{
+  width: 100%;
+  height:300px;
+} 
+
+.travel_mainDiv hr
+{
+    width: 100%; 
+}
+
+.travel_mainDiv h5 , .travel_mainDiv p
+{
+margin-left: 20px;
+}
+
+
+#achievements{
+    padding-bottom: 10px;
+    color: #fefefe;
+}
+
+.movie_head
+{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i
+{
+float: right;
+}
+
+.movie_text span
+{
+color: #ff7700;
+}
+
+#profilepicture{
+    border-radius: 50%;
+    box-shadow: 5px 8px 12px #c2c2c2;
+}
+
+#web-icon{
+    margin-bottom: 8px;
+}
+
+.whats_new_image{
+    border-radius: 20px;
+    box-shadow: 12px 10px 15px #6da385;
+    padding: 0;
+}
+
+.whats_new_image_special{
+    border-radius: 50%;
+    box-shadow: 12px 10px 15px #6da385;
+    padding: 0;
+}
+
+#whatsnew .list-group li{
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.travel_mainDiv{
+    border-radius: 20px;
+    box-shadow: 12px 10px 15px #d3d3d3;
+}
+
+.travel_mainDiv img{
+    border-radius: 15px;
+}
+
+#footer{
+    height: 20px;
+}
+
+.modal-content img{
+    border-radius: 20px;
+}
+
+#alumniList div img{
+    border-radius: 20px;
+    box-shadow: 12px 10px 15px #c1c1c1;
+    margin: 20px;
+}
